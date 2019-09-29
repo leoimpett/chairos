@@ -1,7 +1,3 @@
-# CHAIROS
-## Computing and the History of Art:
-## Images, Recognition, Objects, Semantics
-
 CHAIROS is an informal network of international researchers and group of Computer Visionand digital Art History sharing an interest in art and cultural heritage. The goal of CHAIROS is to make images and large corpora of art more accessible and use the opportunity to interlink ongoing research in Art History, Computer Science (especially Computer Vision) and Digital Humanities.
 
 **CHAIROS was founded to solve a data problem on both sides in Galleries Libraries, Archives and Museums (GLAM) institutions and in Computer Vision: Machine Learning needs a huge amount of data, whereas GLAM institutions need to know what data they have and where similar objects are.**
