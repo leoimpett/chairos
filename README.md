@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# CHAIROS
+## Computing and the History of Art:
+## Images, Recognition, Objects, Semantics
 
-You can use the [editor on GitHub](https://github.com/leoimpett/CHAIROS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+CHAIROS is an informal network of international researchers and group of Computer Visionand digital Art History sharing an interest in art and cultural heritage. The goal of CHAIROS is to make images and large corpora of art more accessible and use the opportunity to interlink ongoing research in Art History, Computer Science (especially Computer Vision) and Digital Humanities.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**CHAIROS was founded to solve a data problem on both sides in Galleries Libraries, Archives and Museums (GLAM) institutions and in Computer Vision: Machine Learning needs a huge amount of data, whereas GLAM institutions need to know what data they have and where similar objects are.**
 
-### Markdown
+CHAIROS closes a gap directly between Computer Vision experts and GLAM institutions, a relationship currently mediated by layers of individual Digital Humanities collaborations, or DIY attempts to use standard Computer Vision tools. The aim is to open up cutting-edge Computer Vision research on humanities data, such as that in the European Conference on Computer Vision (ECCV) Vision for Art (VISART) workshop. As such, CHAIROS can offer technical advice and consulting in a number of distinct technical areas, including:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*   Image matching, e.g. of identical woodblocks or for metadata matching ([example](https://www.google.com/url?q=https://docs.opencv.org/trunk/matcher_result1.jpg&sa=D&ust=1569785390939000))
+*   Image content recognition, semantics, object detection ([example](https://www.google.com/url?q=https://software.intel.com/sites/default/files/managed/a7/55/object-detection-recognition-and-tracking-fig00.jpg&sa=D&ust=1569785390940000)) or pose detection ([example](https://www.google.com/url?q=https://www.learnopencv.com/wp-content/uploads/2018/05/OpenPose.jpg&sa=D&ust=1569785390940000)), including pose matching ([example](https://www.google.com/url?q=http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/James-ICMR-2014.pdf&sa=D&ust=1569785390940000))
+*   Image segmentation, e.g. a book page into margins/text/prints ([example](https://www.google.com/url?q=https://dhsegment.readthedocs.io/en/latest/_images/system.png&sa=D&ust=1569785390941000))
+*   Image-by-image search, finding similar regions by image query ([example](https://www.google.com/url?q=http://www.robots.ox.ac.uk/~vgg/software/vise/images/screenshots/vise_demo_search_result_tile_view.png&sa=D&ust=1569785390941000))
+*   Automatic metadata generation ([example](https://www.google.com/url?q=http://www.vcl.fer.hr/papers_pdf/Fine-tuning%2520Convolutional%2520Neural%2520Networks%2520for%2520fine%2520art%2520classification.pdf&sa=D&ust=1569785390942000))
+*   Writer recognition ([example](https://www.google.com/url?q=https://www5.cs.fau.de/en/research/groups/computer-vision/writer-identification/&sa=D&ust=1569785390943000))
 
-```markdown
-Syntax highlighted code block
+CHAIROS is especially interested in processing the image and meta- datafrom member institutions of PHAROS, because we believe that the computer can support the annotation process by supposing metadata and spotting similar images. CHAIROS will not publish or pass over the data without individual permission; the data is mainly used to train and validate algorithms. The goal is to establish a workflow of human-machine interaction to enrich image data. This involves setting up a network of complementary expertise in different parts of image science, Computer Vision, and machine learning; but also agreeing on some standard interchangeable formats for e.g. annotation tools, geometries or categories (ICONCLASS or other). We may also work towards an art-historical ‘challenge’ for the VISART workshop at [ECCV 2020](https://www.google.com/url?q=http://eccv2020.eu/&sa=D&ust=1569785390943000), where data are given to the research community along with a set of concrete problems to solve(examples of computer vision challenges at previous conferences: [1](https://www.google.com/url?q=http://chalearnlap.cvc.uab.es/challenge/26/description/&sa=D&ust=1569785390944000)[2](https://www.google.com/url?q=https://sites.google.com/view/symcomp17/challenges/3d-symmetry&sa=D&ust=1569785390944000)[3](https://www.google.com/url?q=https://www.crowdai.org/challenges/adversarial-vision-challenge&sa=D&ust=1569785390944000)[4](https://www.google.com/url?q=http://isis-data.science.uva.nl/strezoski/%231&sa=D&ust=1569785390945000)).
 
-# Header 1
-## Header 2
-### Header 3
+The collaboration of Art History and Computer Vision is an opportunity in many ways:
 
-- Bulleted
-- List
+*   CHAIROS is an opportunity to share and reconsider theories and methods of Art History and Computer Vision.
+*   It is an opportunity for GLAM institutions to review, access, analyse and present their image content.
+*   It is an opportunity for new research questions, retrieval tasks and a reflection about perception of artist, beholder and machine.
+*   It is an opportunity for other fields like archeology, visual and media studies to join an interdisciplinary dialogue.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leoimpett/CHAIROS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
