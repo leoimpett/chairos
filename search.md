@@ -56,10 +56,10 @@ Here are some examples for how we might deal with such a workflow:
 ### Ingesting Data 
 
 ```json
-{'load': [{'manifest':'https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json', 
-        'canvases':'all'}, 
-       {'manifest':'https://iiif.lib.harvard.edu/manifests/drs:5981093', 
-       'canvases':'all'}]
+{"load": [{"manifest":"https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json", 
+        "canvases":"all"}, 
+       {"manifest":"https://iiif.lib.harvard.edu/manifests/drs:5981093", 
+       "canvases":"all"}]
 }
 ```
 
@@ -68,11 +68,11 @@ Here are some examples for how we might deal with such a workflow:
 ### Querying with an Image Region
 
 ```json
-{'query':{
-  'manifest':'https://iiif.harvardartmuseums.org/manifests/object/299843',
-  'imurl':'https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg',
-  'canvas':'https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896',
-  'rectangle': [0.34, 0.675, 0.134, 0.9531]
+{"query":{
+  "manifest":"https://iiif.harvardartmuseums.org/manifests/object/299843",
+  "imurl":"https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
+  "canvas":"https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+  "rectangle": [0.34, 0.675, 0.134, 0.9531]
 	}
 }
 ```
@@ -82,20 +82,20 @@ Here are some examples for how we might deal with such a workflow:
 ### Results
 
 ```json
-{'results':[
-{'manifest':'https://iiif.lib.harvard.edu/manifests/drs:5981093', 'canvas':'https://iiif.lib.harvard.edu/manifests/drs:5981093/range/range-0-6-1-3.json',
-'rectangle': [0.1313, 0.7462, 0.1354, 0.7532],
-'similarity': 0.642, 
-'id':0},
-{'manifest':'https://iiif.lib.harvard.edu/manifests/drs:5981093', 'canvas':'https://iiif.lib.harvard.edu/manifests/drs:5981093/range/range-0-6-1-7.json',,
-'rectangle': [0.1354, 0.6423, 0.3541, 0.6436],
-'similarity': 0.473, 
-'id':1},
-{'manifest':'https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json', 'canvas':'https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/canvas/p0002',,
-'rectangle': [0.2456, 0.7420, 0.3567, 0.9302],
-'similarity': 0.136, 
-'id':2}],
-'query_id':'wot3jt2b3keo'
+{"results":[
+{"manifest":"https://iiif.lib.harvard.edu/manifests/drs:5981093", "canvas":"https://iiif.lib.harvard.edu/manifests/drs:5981093/range/range-0-6-1-3.json",
+"rectangle": [0.1313, 0.7462, 0.1354, 0.7532],
+"similarity": 0.642, 
+"id":0},
+{"manifest":"https://iiif.lib.harvard.edu/manifests/drs:5981093", "canvas":"https://iiif.lib.harvard.edu/manifests/drs:5981093/range/range-0-6-1-7.json",,
+"rectangle": [0.1354, 0.6423, 0.3541, 0.6436],
+"similarity": 0.473, 
+"id":1},
+{"manifest":"https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json", "canvas":"https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/canvas/p0002",,
+"rectangle": [0.2456, 0.7420, 0.3567, 0.9302],
+"similarity": 0.136, 
+"id":2}],
+"query_id":"wot3jt2b3keo"
 }
 ```
 
@@ -104,9 +104,9 @@ Here are some examples for how we might deal with such a workflow:
 ### Refine Search
 
 ```json
-{'refine':{
-  'query_id':'wot3jt2b3keo',
-	'positives':[0,1,5,7],
-	'negatives':[2,6]}
+{"refine":{
+  "query_id":"wot3jt2b3keo",
+	"positives":[0,1,5,7],
+	"negatives":[2,6]}
 }
 ```
