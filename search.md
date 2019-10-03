@@ -59,7 +59,9 @@ Here are some examples for how we might deal with such a workflow:
 {"load": [{"manifest":"https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json", 
         "canvases":"all"}, 
        {"manifest":"https://iiif.lib.harvard.edu/manifests/drs:5981093", 
-       "canvases":"all"}]
+       "canvases":"all"}],
+ "key": "a0 1c 2d d1 86 6f 7d ea db 96",
+ "engineID": "5"
 }
 ```
 
@@ -73,7 +75,9 @@ Here are some examples for how we might deal with such a workflow:
   "imurl":"https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
   "canvas":"https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
   "rectangle": [0.34, 0.675, 0.134, 0.9531]
-	}
+	},
+ "key": "a0 1c 2d d1 86 6f 7d ea db 96",
+ "engineID": "5"
 }
 ```
 
@@ -107,6 +111,8 @@ Here are some examples for how we might deal with such a workflow:
 {"refine":{
   "query_id":"wot3jt2b3keo",
 	"positives":[0,1,5,7],
-	"negatives":[2,6]}
+	"negatives":[2,6]},
+	"key": "a0 1c 2d d1 86 6f 7d ea db 96",
+	"engineID": "5"
 }
 ```
